@@ -1,20 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
-@import "tailwindcss";
 
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+body {
+  @apply bg-black text-zinc-100 antialiased;
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
-@layer base {
-  body {
-    @apply bg-black text-zinc-100 antialiased;
-  }
-}
-
-.prose-invert {
-  --tw-prose-body: var(--color-zinc-300);
-  --tw-prose-headings: var(--color-white);
-  --tw-prose-links: var(--color-emerald-400);
-  --tw-prose-bold: var(--color-white);
+code {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
 }
