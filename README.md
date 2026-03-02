@@ -32,8 +32,7 @@ Automated service alerts
 The system continuously monitors oil quality and predicts oil health percentage and remaining usable life.
 
 ⚙️ System Architecture
-Id="h4kz81"
-Copy code
+
 Engine Oil Flow
         ↓
 Oil Property Sensors
