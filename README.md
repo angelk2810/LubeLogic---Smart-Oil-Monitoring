@@ -2,7 +2,6 @@
 ### Smart Engine Oil Health Monitoring System
 
 LubeGuard AI is a real-time engine oil condition monitoring and predictive maintenance system powered by sensors and machine learning.
-
 Instead of changing engine oil based on fixed time or distance intervals, this system continuously analyzes oil condition and predicts the optimal service time using data-driven intelligence.
 
 ---
@@ -51,3 +50,97 @@ The system continuously monitors oil quality and predicts:
 ---
 
 ## ⚙️ System Workflow
+
+Engine Oil Flow
+↓
+Oil Property Sensors
+↓
+ESP32 Microcontroller
+↓
+Cloud Server (API)
+↓
+Machine Learning Model
+↓
+Oil Health & RUL Prediction
+↓
+Web / Mobile Dashboard
+
+
+---
+
+## 🔧 Sensors Used
+
+- **Viscosity Sensor** – Measures oil thickness degradation  
+- **Temperature Sensor (DS18B20 / Thermocouple)** – Monitors thermal stress  
+- **Dielectric Oil Quality Sensor** – Detects contamination levels  
+- **Metal Particle Sensor (Inductive Wear Sensor)** – Detects engine wear  
+- **Optional Pressure Sensor** – Monitors oil circulation health  
+
+---
+
+## 🧠 Machine Learning Models
+
+- Random Forest Regressor  
+- Gradient Boosting Regressor  
+- LSTM (Time-Series Prediction)  
+
+### Model Outputs:
+- Oil Health Percentage (0–100%)  
+- Remaining Useful Life (km / days)  
+- Maintenance recommendation  
+
+---
+
+## 🛠 Tech Stack
+
+**Hardware:**  
+- ESP32 Microcontroller  
+- Oil Property Sensors  
+
+**Backend:**  
+- Python (Flask / FastAPI)  
+
+**Machine Learning:**  
+- Scikit-learn  
+- TensorFlow / Keras  
+
+**Frontend:**  
+- React / Web Dashboard  
+- Plotly / Chart.js  
+
+**Cloud:**  
+- Firebase / AWS  
+
+---
+
+## 📈 Applications
+
+- Passenger vehicles  
+- Fleet management  
+- Heavy-duty engines  
+- Industrial generators  
+
+---
+
+## 🎯 Key Advantages
+
+✔ Condition-based maintenance  
+✔ Reduced maintenance cost  
+✔ Prevents engine damage  
+✔ Eco-friendly  
+✔ Predictive analytics  
+
+---
+
+## 🔮 Future Enhancements
+
+- ECU integration  
+- Fleet-level monitoring  
+- Edge AI deployment  
+- Smart garage ecosystem  
+
+---
+
+## 📜 License
+
+MIT License
