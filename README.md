@@ -21,7 +21,7 @@ However, oil degradation depends on:
 - Engine load  
 - Temperature  
 - Environmental conditions  
-- Traffic patterns  
+- Traffic pattern
 
 This leads to:
 
